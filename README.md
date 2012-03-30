@@ -17,20 +17,11 @@ This is a starting template for Django website projects using (a slightly modifi
 
 
 ## How to use the template
-
+### For setup on local.
 Set up your settings_local.py file:
 
         # set path
         cd <path-to-project>/
-         
-        # copy settings_local.py
-        cp settings_local.py.ex settings_local.py
-        
-        # Edit settings_local.py
-        vim settings_local.py
-        
-
-After you configure your local settings (database, etc.) you're ready to run `syncdb`:
 
         python manage.py syncdb
 
