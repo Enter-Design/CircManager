@@ -8,22 +8,20 @@
 DEBUG = True #TODO set to off for live, staging and preview
 TEMPLATE_DEBUG = DEBUG
 
-SECRET_KEY = '(xxq$%nk3o!4q_)xfwb88u3=^mk71n9&-i&qq=l@1h_6(6)-0i' #TODO Change on production
-
 #TODO: replace localhost with the domain name of the site
-DEFAULT_FROM_EMAIL = 'messenger@localhost'
+DEFAULT_FROM_EMAIL = 'rossmerriam@gmail.com'
 SERVER_EMAIL = DEFAULT_FROM_EMAIL
 
 ADMINS = (
-    ('Admin Name', 'admin@example.com'), #TODO
+    ('Ross Merriam', 'rossmerriam@gmail.com'), #TODO
 )
 
 MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '',                      # Or path to database file if using sqlite3.
+        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': 'database.db',                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -32,7 +30,7 @@ DATABASES = {
 }
 
 
-TIME_ZONE = 'Canada/Eastern'
+TIME_ZONE = 'America/Vancouver'
 
 ROOT_URLCONF = 'urls_dev' #TODO: remove this on production
 
