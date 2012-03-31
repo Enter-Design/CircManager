@@ -34,4 +34,4 @@ Then open up your browser and go to [http://127.0.0.1:8000](http://127.0.0.1:800
 
 ## A note about humans and robots
 
-HTML5 Boilerplate includes humans.txt and robots.txt files. I had thought about including a method for serving those files with this project but decided that the most appropriate way to do so was not through Django but through your web server (be it, Apache, nginx or what have you). They are included for your convenience in the `config/` folder, but it's up to you to ensure that they're served properly.
+HTML5 Boilerplate includes humans.txt and robots.txt files. I deleted them as managing these files were outside of my intended scope.
