@@ -60,6 +60,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.static',
     'django.contrib.auth.context_processors.auth',
     'django.contrib.messages.context_processors.messages',
+    'utils.context_processors.site_settings',
 
 )
 
@@ -81,7 +82,14 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
+    'utils',
+    'circ',
 )
+
+# CircManager site settings
+SITE_NAME = 'CicManager'
+META_KEYWORDS = 'small magazine circulation management, online circulation software, magazine circulation software'
+META_DESCRIPTION = 'CircManager is a tool designed for small to medium sized magazines to help them manage their subscriber base.'
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
