@@ -84,12 +84,15 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'utils',
     'circ',
+    'accounts',
 )
 
-# CircManager site settings
+AUTH_PROFILE_MODULE = 'accounts.Customer'
+
+# CircManager site settings which the utils app uses
 SITE_NAME = 'CicManager'
-META_KEYWORDS = 'small magazine circulation management, online circulation software, magazine circulation software'
-META_DESCRIPTION = 'CircManager is a tool designed for small to medium sized magazines to help them manage their subscriber base.'
+META_KEYWORDS = 'small magazine subscription software, circulation management software'
+META_DESCRIPTION = 'CircManager is a tool for small to medium magazines to manage their circulation.'
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
