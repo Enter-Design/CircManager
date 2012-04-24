@@ -1,5 +1,5 @@
 from django import forms
-from circ.models import Publication, Offer
+from circ.models import Publication, Offer, Subscription
 
 class PublicationAdminForm(forms.ModelForm):
     class Meta: 
@@ -14,4 +14,3 @@ class PublicationAdminForm(forms.ModelForm):
 class OfferAdminForm(forms.ModelForm):
     class Meta:
         model = Offer
-

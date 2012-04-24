@@ -6,7 +6,7 @@ from accounts.models import Customer
 
 class Publication(models.Model):
     name = models.CharField(max_length=255, unique=True)
-    issue_no = models.IntegerField(help_text='Current issue number')
+    issue_no = models.IntegerField(help_text='Current issue number', verbose_name='Current Issue Number')
     slug = models.SlugField(max_length=255, unique=True,
       help_text='Unique value for publication page URL, created from name.')
     price = models.DecimalField(max_digits=9,decimal_places=2)
@@ -31,6 +31,33 @@ class Offer(models.Model):
 
     def __unicode__(self):
         return self.name
+
+class Subscription(models.Model):
+    """Ties publication to a customer with a start issue and an end issue."""
+
+    subscriber = models.ForeignKey(Customer)
+    publication = models.ForeignKey('Publication')
+    slug = models.SlugField(max_length=255, unique=True,
+      help_text = 'Unique value for Subscription URL, created from User Name and Publication.')
+    first_issue = models.IntegerField() # inclusive
+    end_issue = models.IntegerField() # inclusive
+    
+    STATUSES = (
+        ('Inactive', 'Inactive'),
+        ('Active', 'Active'),
+        ('Closed', 'Closed'),
+        ('Hold', 'Hold'),
+    )
+
+    status = models.CharField('Status', max_length=8,
+                              choices=STATUSES,
+                              default='Active')
+
+    def __unicode__(self):
+        return u'%s - %s: %s:%s' % (self.subscriber,
+                                    self.publication,
+                                    self.first_issue,
+                                    self.end_issue)
 
 
 
