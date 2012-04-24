@@ -1,6 +1,6 @@
 from django.conf.urls.defaults import *
 
-from circ.models import Publication
+from circ.models import Publication, Offer
 
 urlpatterns = patterns('circ.views',
         (r'^$', 'index', { 'template_name':'circ/index.html'}, 'circ_home'),

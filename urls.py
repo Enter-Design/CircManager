@@ -11,9 +11,14 @@ urlpatterns = patterns('',
     
     # Home Page -- Replace if you like
     url(r'^$', TemplateView.as_view(template_name='home.html'), name='home'),
+    
+    # Circ app urls
+    url(r'^circ/', include('circ.urls')),
+
+    # Circ app admin urls
+    url(r'^admin/circ/', include('circ.admin_urls')),
 
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^circ/', include('circ.urls')),
 )
