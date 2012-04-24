@@ -1,6 +1,6 @@
 from django.contrib import admin
-from circ.models import Publication
-from circ.forms import PublicationAdminForm
+from circ.models import Publication, Offer
+from circ.forms import PublicationAdminForm, OfferAdminForm
 
 class PublicationAdmin(admin.ModelAdmin):
     form = PublicationAdminForm
@@ -16,3 +16,14 @@ class PublicationAdmin(admin.ModelAdmin):
 
 # registers publication model with the admin site
 admin.site.register(Publication, PublicationAdmin)
+
+class OfferAdmin(admin.ModelAdmin):
+    form = OfferAdminForm
+    list_display = ('name', 'publication', 'term')
+    list_display_links = ('name'),
+    ordering = ['publication', 'name',]
+    search_fields = ['publication', 'name',]
+
+    prepopulated_fields = {'slug' : ('name',)}
+
+admin.site.register(Offer, OfferAdmin)

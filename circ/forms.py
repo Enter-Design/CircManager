@@ -1,5 +1,5 @@
 from django import forms
-from circ.models import Publication
+from circ.models import Publication, Offer
 
 class PublicationAdminForm(forms.ModelForm):
     class Meta: 
@@ -10,3 +10,8 @@ class PublicationAdminForm(forms.ModelForm):
         if self.cleaned_data['price'] < 0:
             raise forms.ValidationError('Price must be greater than or equal to zero.')
         return self.cleaned_data['price']
+
+class OfferAdminForm(forms.ModelForm):
+    class Meta:
+        model = Offer
+
