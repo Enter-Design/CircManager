@@ -1,0 +1,91 @@
+"GREETING","FIRST NAME","LAST NAME","OTHER NAME","COMPANY","BIRTHDAY","PHONE","EMAIL","BILL_ADD_1","BILL_ADD_2","BILL_CITY","BILL_PROV","BILL_POSTAL","BILL_COUNTRY","SHIP_AS_BILL","SHIP_ADD_1","SHIP_ADD_2","SHIP_CITY","SHIP_PROV","SHIP_POSTAL","SHIP_COUNTRY","TYPE","DATE STARTED","CONTRIBUTOR","ADVERTISER","NO SWAP","SOURCE","CHANGE DATE RECORD","ID "
+"Ms.","Heidi","Greco",,"Cormorant","05/01/25","604-538-8347","heidigreco@hotmail.com","15823 Tulip Drive"," ","South Surrey","BC","V4A 1Y2","CAN","TRUE",,,,,,,"E",,"TRUE","TRUE",,"MAG","11/08/10",13091
+"Dr.","David","Freeman",," ",,"11/12/11"," ","Sir Wilfred Grenfell","Professor","Corner Brook","NL","A2H 6P9","CAN","TRUE",,,,,,,"F","08/15/97","FALSE","FALSE",," ",,13160
+"Mrs.","Susan","Shank",," ",,"2012-31-31"," ","208 - 1234 Pendrell St."," ","Vancouver","BC","V6E 1L6","CAN","TRUE",,,,,,,"F","05/01/97","FALSE","FALSE",," ",,12816
+"Mr.","L.A.","Dunn",," ","2010-06-07","519 484-2033"," ","206 Ellis Ave."," ","Mount Pleasant","ON","N0E 1K0","CAN","TRUE",,,,,,,"F","06/17/98","FALSE","FALSE",,"DM97","01/10/05",14185
+"Prof.","Michael","Trussler",," ",,"306-585-4315","Michael.Trussler@uregina.ca","University of Regina"," ","Regina","SK","S4S 0A2","CAN","TRUE",,,,,,,"F","08/03/04",,,,"CONTEST","12/09/08",23738
+"Dr.","Jerry","Stamatelos",," ",,"514.735.5058","j_stamatelos@yahoo.ca","4810 Queen Mary Road","Suite 4","Montreal","QC","H3W 1W9","CAN","TRUE",,,,,,,"M","08/03/04",,,,"SLUSH",,23739
+,"Matt","Peake",," ",,"613-884-7110","matt_peake@hotmail.com","310 Elmgrove Avenue, Unit B"," ","Ottawa","ON","K1Z 6V1","CAN","TRUE",,,,,,,"P","08/03/04",,,,"SLUSH","08/27/10",23740
+,"Rhoda","Hodjati",," ",," ","rhoda_hodjati@yahoo.ca","101 - 90 Alexander"," ","Vancouver","BC","V6A 1B4","CAN","TRUE",,,,,,,"P","08/03/04",,,,"SLUSH","09/03/08",23741
+,"John","Doan",,"St Mary's College",," "," ","130 Wellington Street East"," ","Sault St. Marie","ON","P6A 2L5","CAN","TRUE",,,,,,,"F","08/03/04",,,,"BLOWI",,23742
+,"Karen","Eisenstadt",," ",,"510-525-2594","kazzie12@yahoo.com","2625 Alcatraz Ave #614"," ","Berkeley","CA",94705,"USA","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23744
+,"Tamas","Juhasz",," ",,"604-689-1564"," ","1348 Barcly St #1607"," ","Vancouver","BC","V6E 1H7","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23745
+,"Marsha","Drake",," ",,"604-253-4243","mdrake@smartt.com","3266 Venables St"," ","Vancouver","BC","V5K 2S6","CAN","TRUE",,,,,,,"P","08/05/04",,,,"BCFED",,23746
+,"Angela","Wen",," ",,"604-986-6859"," ","1169 West 24th St"," ","North Vancouver","BC","V7P 2J1","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23747
+,"Dean","MacPherson",," ",2007-07-07,"604-928-3326","scurrilous_rogue@sluggy.net","4790 Albert St"," ","Burnaby","BC","V5L 2G9","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23748
+,"Mike & Lynda","Lord",," ",,"465-7722"," ","817 West 14th Avenue"," ","Vancouver","BC","V5Z 1R2","CAN","TRUE",,,,,,,"Z","06/17/98","FALSE","FALSE","TRUE","DM97","12/01/00",14195
+,"Lisa","Manfield",," ",,"604-739-7794","lmanfield@yahoo.com","201-2365 West 2nd Ave"," ","Vancouver","BC","V6K 1J3","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23749
+,"Melissa","Choo",," ",,"604-215-1481"," ","4-2185 Oxford St"," ","Vancouver","BC","V5L 1E8","CAN","FALSE",,,,,,,"P","08/05/04",,,,"EVENT",,23750
+,"Nancy","Liknes",," ",,"604-877-1015","nancy@ripemagazine.com","25-2649 Quebec St"," ","Vancouver","BC","V5T 3A6","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23751
+,"Melanie","Colemitt",," ",,"604-874-1433"," ","924 E 19th Ave"," ","Vancouver","BC","V5V 1K7","CAN","FALSE",,,,,,,"P","08/05/04",,,,"EVENT",,23752
+,"Lisa","Hardin",," ",,"778-321-8335","lisahardin1@gmail.com","12, 1873 Adanac"," ","Vancouver","BC","V5L 2E1","CAN","FALSE",,,,,,,"P","08/05/04",,,"TRUE","EVENT","10/04/10",23753
+,"Faith","Johnstone",," ",1997-01-09,"604-734-7798","kmj3can@yahoo.ca","205-3506 West 4th"," ","Vancouver","BC","V6R 1N8","CAN","FALSE",,,,,,,"F","08/05/04",,,,"OVERRUN",,23754
+,"Gordon","Woods",," ",,"604-988-8110","gjw1@sfu.ca","#1504-2004 Fullerton Ave"," ","North Vancouver","BC","V7R 3G8","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23755
+,"OR","Sorenson",," ",,"604-733-0320"," ","207-3360 West Broadway"," ","Vancouver","BC","V6R 2B2","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23756
+,"Penny","Lim",," ",,"604-708-3603","mrpintail@hotmail.com","22-546 W 13th Ave"," ","Vancouver","BC","V5Z 1N7","CAN","FALSE",,,,,,,"P","08/05/04",,,,"EVENT","10/06/10",23757
+,"John","Small",," ",1982-12-31,"867-668-3522"," ","106 Alsek"," ","Whitehorse","YT","Y1A 1K6","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23758
+,"Mark","Forsythe",," ",," ","noon@vancouver.cbc.ca","P.O. Box 308"," ","Fort Langley","BC","V1M 2R6","CAN","TRUE",,,,,,,"F","06/17/98","FALSE","FALSE",,"MISC","12/31/99",14197
+,"Anne","Wen",," ",1981-01-01,"604-986-6859","fatfrog49@hotmail.com","1169 West 24th St"," ","North Vancouver","BC","V7P 2J1","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23759
+,"Freda","Tsen",," ",,"604-738-4429","freda738@hotmail.com","#207, 1216 West 11th Ave"," ","Vancouver","BC","V6H 1K3","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23760
+,"Ashely","Tan",," ",,"604-670-9613"," ","206-1528 East 5th Ave"," ","Vancouver","BC","V6E 1L7","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23761
+,"Loretta","Seto",," ","1989-10-31","604-677-4199","loretta_seto@hotmail.com","2144A West 13th Ave"," ","Vancouver","BC","V6K 2S1","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23762
+,"Julee","Wyld",," ",,"604-771-5682","jwyld@yahoo.com","107-1744 Barclay St"," ","Vancouver","BC","V6G 1K3","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23763
+,"Carmelita","Chan",," ",,"604-738-8860"," ","#1110-819 Hamilton St"," ","Vancouver","BC","V6B 6M2","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23764
+,"Desiree","Hauswald",," ",," "," ","1417 Doran Rd"," ","North Vancouver","BC","V7K 1N1","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23765
+,"Karin","Hauswald",," ",," ","khauswald@shaw.ca","1417 Doran Rd"," ","North Vancouver","BC","V7K 1N1","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23766
+,"Rosemary","Gretton",," ",,"604-904-0223","rgretton@telus.net","660 Blueridge Ave"," ","North Vancouver","BC","V7R 2J3","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23767
+,"Caroline","Lindholm",," ",,"604-266-7503","marpole_village@yahoo.com","#105-8740 Selkirk St"," ","Vancouver","BC","V6P 4J4","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23769
+,"Stephen","Pope",," ",,"613 231-5681","sfpope@cyberus.ca","68 Clegg Street"," ","Ottawa","ON","K1S 0H8","CAN","TRUE",,,,,,,"R","06/29/98","FALSE","FALSE",,"RENEWAL","02/25/10",14201
+,"Susan","Marino",," ",,"604-522-9881","smarino@sd43.bc.ca","1933 8th Ave"," ","New Westminister","BC"," ","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23770
+,"J.","Campbell",," ",,"604-926-3173","silijenn@earthling.net","2340 Bellevue Ave"," ","Wes Vancouver","BC","C7V 1C8","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23771
+,"Gabriella","Sandor",," ",,"250-385-3032","sandor@camosun.bc.ca","305-505 Quadra St"," ","Victoria","BC","V8V 3S2","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23772
+,"Valerie","McTavish",," ",,"604-669-3699","vmctavish@canada.com","1839 Parker St"," ","Vancouver","BC","V5L 2L1","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23773
+,"Astrid","Bordeville",," ",," ","vanspice@vancouver.net","3341 East Georgia St"," ","Vancouver","BC","V5K 2L5","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23774
+,"Jade","Reid",," ",,"604-222-8246"," ","2583 Courtenay"," ","Vancouver","BC","V6R 3Y4","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23775
+,"Nicole","Young",," ",,"778-554-5214","nikatlast76@yahoo.ca","lot 36 -5858 Marine Drive"," ","West Vancouver","BC","V7W 1V7","CAN","TRUE",,,,,,,"F","08/05/04",,,,"CONTEST","08/27/10",23776
+,"Jennifer","Patterson",," ",,"604-876-4682","jenniferp@mediaedge.ca","3435 West 38th"," ","Vancouver","BC"," ","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23777
+,"Avril","Colenutt",," ",,"604-209-8756"," ","2846 East Pender"," ","Vancouver","BC","V5K 2C2","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23778
+,"Kristy","McKinnon",," ",,"604-415-9966","marina@lightspeed.ca","8344 Aspenwood Place"," ","Burnaby","BC","V5A 3V3","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23779
+,"Dorothy","Field",," ",,"250 743-5358"," ","R.R. #1"," ","Cobble Hill","BC","V0R 1L0","CAN","TRUE",,,,,,,"F","06/29/98","FALSE","FALSE",,"DM97","08/05/99",14204
+,"Kathryn","Nass",," ",,"604-8441650","islandgirl_25@yahoo.com","705-1445 Pendrell St"," ","Vancouver","BC","V6G 1S3","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23780
+,"Carole","Nakonechemy",," ",,"604-734-5063","cnak@look.ca","302-2455 West Second"," ","Vancouver","BC","V6K 1J5","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23781
+,"Jenny","Fu",," ",,"604-255-1191","fu_meng@yahoo.com","3382 East 2nd"," ","Vancouver","BC","V5M 1GM","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23782
+,"Alice","Fu",," ",,"604-255-1191","fu_meng@yahoo.com","3382 East 2nd Ave"," ","Vancouver","BC","V5M 1GM","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23783
+,"marjorie","Gray",," ",,"604-263-4801"," ","2174 West 45th Ave"," ","Vancouver","BC","V6M 2J1","CAN","TRUE",,,,,,,"M","08/05/04",,,,"EVENT",,23784
+,"Degan","Beley",," ",,0,"deganlady@hotmail.com","605 - 919 Station Street"," ","Vancouver","BC","V6A 4L9","CAN","TRUE",,,,,,,"F","08/05/04",,,,"EVENT","07/05/06",23785
+,"Shelley","Reeder",," ",,"604-944-7338","reeder@telus.net","313-2049 Coquitlam Ave"," ","Port Coquitlam","BC","V3B 6B6","CAN","TRUE",,,,,,,"M","08/05/04",,,,"EVENT",,23786
+,"Daisy","Meng",," ",,"604-255-1191","fu-meng@yahoo.com","3382 East 2nd Ave"," ","Vancouver","BC"," ","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23787
+,"Andrea","Goode",," ",,"604-853-9010","andrew_goode@hotmail.com","2859 Gleriaron Crt"," ","Vancouver","BC","V3G 1G7","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23788
+,"Nick","Smith",," ",,"604-251-5012"," ","2272 West 3rd Ave"," ","Vancouver","BC","V6L 2L4","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23789
+,"Dwight Thomas","Atkinson",,"Architect Atkinson Iconography Studio",,"266-7322"," ","2243 West 47th Ave."," ","Vancouver","BC","V6M 2M8","CAN","TRUE",,,,,,,"W","06/29/98","FALSE","FALSE",," ","08/28/01",14208
+,"Tanya","Yaremko",," ",,"250-716-8891"," ","#4-1630 Crescentview Dr"," ","Nanaimo","BC","V9S 2N5","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23790
+,"Seema","Shah",," ",,"604-733-2161","seemas@axion.net","#206-1345 West 11th Ave"," ","Vancouver","BC","V6H 1K7","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23791
+,"Elayne","Harris",," ",,"604-323-8950"," ","803-1170 Harwood"," ","Vancouver","BC","V6E 1R8","CAN","TRUE",,,,,,,"M","08/05/04",,,,"EVENT",,23792
+,"Ken","Paquette",," ",,"604-255-4558"," ","1131 Lily St"," ","Vancouver","BC"," ","CAN","TRUE",,,,,,,"R","08/05/04",,,,"EVENT","03/12/10",23793
+,"Fiona","Wilson",," ",,"250-390-4888","johnwilson-author@shaw.ca","7103 Caillet Rd., box 316"," ","Lantzville","BC","V0R 2H0","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23794
+,"B.","Burnet",," ",,"604-688-4876"," ","405-1465 Comox St"," ","Vancouver","BC","V6G 1N9","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23795
+,"Jennifer","Cowley",," ",,"604-298-3070","geist@cowley.cjb.net","5399 Braelawn Drive"," ","Burnaby","BC","V5B 2H8","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23796
+,"Neil","Brown",," ",,"250-754-8784","neal_brown@hotmail.com","649 Milton St"," ","Nanaimo","BC","V9R 2L4","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23798
+,"Megan","Crouch",," ",,"604-307-9993","meganlisbeth@shaw.ca","317 West 19th Ave"," ","Vancouver","BC","V5Y 2B6","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23799
+,"Lilly","Wong",," ",,"604-738-8040","lillyw@telus.net","102-1923 Parker St"," ","Vancouver","BC","V5L 2L2","CAN","TRUE",,,,,,,"M","08/05/04",,,,"EVENT",,23800
+,"Jaynie","Clark",," ",,0," ","10780 Aintree Cres"," ","Richmond","BC","V7A 3V1","CAN","TRUE",,,,,,,"F","06/29/98","FALSE","FALSE",,"MISC","07/04/06",14210
+,"Lilibet","Greig",," ",,"604-782-2379","thefirerose@hotmail.com","1829 East 12th"," ","Vancouver","BC","V5N 2A6","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23801
+,"Judy","Hamill",," ",,"604-904-1245","judyhamill@shaw.ca","472 Crestwood Avenue"," ","North Vancouver","BC","V7N 3C3","Can","TRUE",,,,,,,"P","08/05/04",,,,"GIFT","12/13/10",23802
+,"George","Williams",," ",," ","sha_ohn_gtw@hotmail.com","T-06 1339 Gravely St SE"," ","Vancouver","BC","V5T 3A1","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23803
+,"Rosemary","Bard",," ",," "," ","4270 Osler St"," ","Vancouver","BC","V6H 2X5","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23804
+,"Peter","Goode",," ",,"604-853-9010","pgoode@hotmail.com","2859 Glenavon Crt"," ","Vancouver","BC","V3G 1G7","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23805
+,"Wendy","Cowley",," ",,"604-298-3070","wacowley@telus.net","5399 Braelawn Dr"," ","Burnaby","BC","V5B 2H8","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23806
+,"Bonnie","Jan Vrem",," ",,"604-646-0019"," ","1101-2088 Barclay St"," ","Vancouver","BC","V6G 1L5","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23807
+,"P.","Gray",," ",,"604-263-4801"," ","2174 West 45 Ave"," ","Vancouver","BC","V6M 2J1","CAN","TRUE",,,,,,,"M","08/05/04",,,,"EVENT","10/25/05",23808
+,"Dylan","Godwin",," ",," "," ","2466 Adanac St"," ","Vancouver","BC","V5W 2M4","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23809
+,"R","Gallagher",," ",,"604-263-3084"," ","2962 West 38th"," ","Vancouver","BC","V6W 2X1","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23810
+,"C. P.","Bourgeois",," ",," "," ","264 Germain Street"," ","Saint John","NB","E2L 2G8","CAN","TRUE",,,,,,,"Z","06/30/98","FALSE","FALSE",,"BLOWIN","06/29/01",14211
+,"Diana","Griffin",," ",," "," ","2292 137th St"," ","Surrey","BC","V4A 9V1","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23811
+,"Laurie","Audet",," ",,"604-2229262"," ","3650 West 17th"," ","Vancouver","BC","V6S 1A2","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23820
+,"Sally","Hunter",," ",," "," ","212 Chatham Avenue"," ","Toronto","ON","M4J IK9","CAN","TRUE",,,,,,,"H","06/30/98","FALSE","FALSE",,"GIFT","11/30/04",14212
+,"Mark","Teffes",," ",,"604-434-2624","mark&bev@telus.net","6206 Brooks St"," ","Vancouver","BC","V5S 3J1","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23821
+,"Deborah","Mossenberg",," ",,"604-684-5415"," ","2605-1188 Howe St"," ","Vancouver","BC","V6Z 2S8","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23822
+,"Jason","Cleghorn",," ",,"604-535-1523","jasoncleghorn@canada.com","2050 149th St"," ","South Surrey","BC"," ","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23823
+,"Jen","St. Denis",," ",,"604-338-0781","jenstden@gmail.com","411 - 1035 Pacific Street"," ","Vancouver","BC","V6E 4G7","CAN","TRUE",,,,,,,"F","08/05/04","TRUE",,,"OVERRUN","09/20/05",23827
+,"Theresa","Brodie",," ",,"604-466-0042","sipping-tea@shaw.ca","33-22280 124th Ave"," ","Maple Ridge","BC","V2X 4J5","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23828
+,"Jennifer","Glougue",," ",,"604-592-0929","jengloug@telus.net","12289 Parktree Cr"," ","Surrey","BC","V3X 1Z6","CAN","TRUE",,,,,,,"P","08/05/04",,,,"EVENT",,23829
