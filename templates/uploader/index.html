@@ -1,0 +1,22 @@
+{% extends "admin/base_site.html" %}
+
+{% block title %}CircManager: CSV Upload{% endblock %}
+
+{% block content %}
+
+    <h1>Upload circulation .csv</h1>
+
+    <ul>
+        <li>Use this form to populate your subscriber list</li>
+        <li>Customers and subscriptions will be automatically generated</li>
+        <li>Existing records will not be affected</li>
+    </ul>
+
+    <form enctype="multipart/form-data" method="post"
+          action="{% url upload %}">
+        {% csrf_token %}
+        <b> {{ form.file.label_tag }}</b>  {{ form.file}}
+        <input type="submit" value="Submit" />
+    </form>
+
+{% endblock %}
