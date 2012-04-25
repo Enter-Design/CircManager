@@ -18,6 +18,9 @@ urlpatterns = patterns('',
     # Circ app admin urls
     url(r'^admin/circ/', include('circ.admin_urls')),
 
+    # Report app
+    url(r'^reports/upcoming/', 'reports.views.upcoming'),
+
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
 

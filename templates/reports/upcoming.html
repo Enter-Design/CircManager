@@ -1,0 +1,39 @@
+{% extends "admin/base_site.html" %}
+
+{% block title %}CircManager: Subscribe{% endblock %}
+
+{% block content %}
+
+<div id="content-main">
+
+    <h1>Upcoming subscription expiries</h1>
+
+    {% if success %}
+        <p><strong>Success!</strong> Subscription added.</p>
+
+        <p>
+          <a href="{% url admin:index %}">Back to Admin</a>
+        | <a href="{% url subs.views.subscribe %}">Subscribe another</a>
+        </p>
+
+    {% endif %}
+
+    <br /><br />
+
+    <p>Found the following active products:</p>
+    {% for pub in publications %}
+    <p><strong>{{ pub.name }}</strong> - Current issue: {{ pub.issue_no }}</p>
+
+            <ul>
+            {% for sub in pub.subs %}
+                <li>Owner: <strong>{{ sub.subscriber }}</strong> Last issue: {{ sub.end_issue }}</li>
+            {% endfor %}
+            </ul>
+    {% empty %}
+        <li>Sorry, no products found!</li>
+    {% endfor %}
+
+</div>
+
+{% endblock %}
+
