@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 
 from models import UploadFileForm # import our upload form model
 
-from subs.models import Customer
+from accounts.models import Customer
 import os
 
 
