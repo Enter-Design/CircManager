@@ -20,7 +20,7 @@ class Payment(models.Model):
                               max_length=7,
                               choices=PAYMENT_METHODS)
 
-    promo = models.ForeignKey('products.Promo',
+    promo = models.ForeignKey('circ.Promo',
                                   verbose_name='Promo',
                                   related_name='subs_promo',
                                   blank=True, null=True)
