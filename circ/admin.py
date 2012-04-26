@@ -1,5 +1,5 @@
 from django.contrib import admin
-from circ.models import Publication, Offer, Subscription
+from circ.models import Publication, Offer, Promo, Subscription
 from circ.forms import PublicationAdminForm, OfferAdminForm
 
 class PublicationAdmin(admin.ModelAdmin):
@@ -27,6 +27,11 @@ class OfferAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug' : ('name',)}
 
 admin.site.register(Offer, OfferAdmin)
+
+class PromoAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(Promo, PromoAdmin)
 
 class SubscriptionAdmin(admin.ModelAdmin):
     list_display = ('subscriber', 'publication', 'end_issue')

@@ -32,6 +32,18 @@ class Offer(models.Model):
     def __unicode__(self):
         return self.name
 
+class Promo(models.Model):
+
+    name = models.CharField('Promo name', max_length=200)
+    dateCreated = models.DateField('Created', blank=True, null=True)
+    # TODO: Limit discount to max 100
+    discount = models.PositiveIntegerField(
+            help_text="% discount (ex: '20')")
+    description = models.TextField()
+
+    def __unicode__(self):
+        return u'%s - %s' % (self.name, self.discount)    
+
 class Subscription(models.Model):
     """Ties publication to a customer with a start issue and an end issue."""
 
@@ -59,8 +71,3 @@ class Subscription(models.Model):
                                     self.first_issue,
                                     self.end_issue)
 
-
-
-    
-
-    
