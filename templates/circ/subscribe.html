@@ -1,0 +1,41 @@
+{% extends "admin/base_site.html" %}
+
+{% block title %}CircManager: Subscribe{% endblock %}
+
+{% block content %}
+
+<div id="content-main">
+
+    <h1>Subscribe</h1>
+
+    {% if success %}
+        <p><strong>Success!</strong> Subscription added.</p>
+
+        <p>
+          <a href="{% url admin:index %}">Back to Admin</a>
+        | <a href="{% url circ.views.subscribe %}">Subscribe another</a>
+        </p>
+
+    {% else %}
+
+        <p>Use this form to purchase a subscription.</p>
+
+        {% if form.errors %}
+            <p style="color: red;">
+                Please correct the error{{ form.errors|pluralize }} below.
+            </p>
+        {% endif %}
+
+        <form action="" method="post">
+            {% csrf_token %}
+            <table>
+                {{ form.as_table }}
+            </table>
+            <input type="submit" value="Subscribe">
+        </form>
+
+    {% endif %}
+</div>
+
+{% endblock %}
+

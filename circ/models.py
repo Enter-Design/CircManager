@@ -1,14 +1,16 @@
 from django.db import models
 
 from accounts.models import Customer
+from django.contrib.auth.models import User
 
 # Create your models here.
 
 class Publication(models.Model):
     name = models.CharField(max_length=255, unique=True)
-    issue_no = models.IntegerField(help_text='Current issue number', verbose_name='Current Issue Number')
+    issue_no = models.IntegerField(help_text='Current issue number',
+                                   verbose_name='Current Issue Number')
     slug = models.SlugField(max_length=255, unique=True,
-      help_text='Unique value for publication page URL, created from name.')
+        help_text='Unique value for publication page URL, created from name.')
     price = models.DecimalField(max_digits=9,decimal_places=2)
     is_active = models.BooleanField(default=True)
     description = models.TextField()
@@ -24,7 +26,7 @@ class Publication(models.Model):
 class Offer(models.Model):
     name = models.CharField(max_length=255, unique=True)
     slug = models.SlugField(max_length=255, unique=True,
-      help_text='Unique value for offer page URL, created from name.')
+        help_text='Unique value for offer page URL, created from name.')
     publication = models.ForeignKey(Publication)
     cost = models.DecimalField(max_digits=8, decimal_places=2)
     term = models.IntegerField(help_text='Number of issues')
@@ -47,7 +49,7 @@ class Promo(models.Model):
 class Subscription(models.Model):
     """Ties publication to a customer with a start issue and an end issue."""
 
-    subscriber = models.ForeignKey(Customer)
+    subscriber = models.ForeignKey(User)
     publication = models.ForeignKey('Publication')
     slug = models.SlugField(max_length=255, unique=True,
       help_text = 'Unique value for Subscription URL, created from User Name and Publication.')
@@ -70,4 +72,3 @@ class Subscription(models.Model):
                                     self.publication,
                                     self.first_issue,
                                     self.end_issue)
-

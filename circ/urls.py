@@ -8,4 +8,5 @@ urlpatterns = patterns('circ.views',
             'show_publication', {'template_name':'circ/publication.html'}, 'circ_publication'),
         (r'^offers/(?P<offer_slug>[-\w]+)/$',
             'show_offer', {'template_name':'circ/offer.html'}, 'circ_offer'),
+        url(r'^subscribe/', 'subscribe', name='circ_subscribe'),
 )
