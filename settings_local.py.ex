@@ -9,19 +9,20 @@ DEBUG = True #TODO set to off for live, staging and preview
 TEMPLATE_DEBUG = DEBUG
 
 #TODO: replace localhost with the domain name of the site
-DEFAULT_FROM_EMAIL = 'rossmerriam@gmail.com'
+DEFAULT_FROM_EMAIL = 'django_errors@circmanager.com'
 SERVER_EMAIL = DEFAULT_FROM_EMAIL
 
 ADMINS = (
-    ('Ross Merriam', 'rossmerriam@gmail.com'), #TODO
+    ('Ross Merriam', 'rossmerriam@gmail.com'),
+    ('Mitch LeBlanc', 'supermitch@gmail.com'),
 )
 
 MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'database.db',                      # Or path to database file if using sqlite3.
+        'ENGINE': 'django.db.backends.sqlite3', # 'postgresql_psycopg2', 'postgresql', 'mysql', 'oracle'
+        'NAME': 'database.db',           # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
