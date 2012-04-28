@@ -23,7 +23,6 @@ class OfferAdmin(admin.ModelAdmin):
     list_display_links = ('name'),
     ordering = ['publication', 'name',]
     search_fields = ['publication', 'name',]
-
     prepopulated_fields = {'slug' : ('name',)}
 
 admin.site.register(Offer, OfferAdmin)
@@ -37,7 +36,6 @@ class SubscriptionAdmin(admin.ModelAdmin):
     list_display = ('subscriber', 'publication', 'end_issue')
     list_display_links = ['subscriber',]
     search_fields = ['subscriber',]
-
     prepopulated_fields = {'slug' : ('subscriber', 'publication'),}
 
 admin.site.register(Subscription)

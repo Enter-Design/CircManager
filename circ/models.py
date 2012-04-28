@@ -11,9 +11,11 @@ class Publication(models.Model):
                                    verbose_name='Current Issue Number')
     slug = models.SlugField(max_length=255, unique=True,
         help_text='Unique value for publication page URL, created from name.')
-    price = models.DecimalField(max_digits=9,decimal_places=2)
+    price = models.DecimalField(max_digits=9,
+                                decimal_places=2,
+                                help_text='Suggested single issue price')
     is_active = models.BooleanField(default=True)
-    description = models.TextField()
+    description = models.TextField(blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __unicode__(self):
@@ -52,7 +54,7 @@ class Subscription(models.Model):
     subscriber = models.ForeignKey(User)
     publication = models.ForeignKey('Publication')
     slug = models.SlugField(max_length=255, unique=True,
-      help_text = 'Unique value for Subscription URL, created from User Name and Publication.')
+      help_text = 'Unique value for Subscription URL.')
     first_issue = models.IntegerField() # inclusive
     end_issue = models.IntegerField() # inclusive
     

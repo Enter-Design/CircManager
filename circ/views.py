@@ -4,6 +4,8 @@ from django.template import RequestContext
 from circ.models import Publication, Offer, Subscription
 from circ.forms import SubscribeForm
 
+import re   # slug generation
+
 def index(request, template_name='circ/index.html'):
     page_title = 'Welcome to CircManager.'
     return render_to_response(template_name, locals(),
@@ -40,11 +42,15 @@ def subscribe(request):
 
             prod = cd['offer'].publication
 
+            the_slug = (cd['subscriber'].username + '-' + prod.name).lower()
+            the_slug = re.sub(r'\W+', '-', the_slug)
+
             subscription = Subscription(
                 subscriber = cd['subscriber'],
                 publication = prod,
                 first_issue = prod.issue_no,
                 end_issue = prod.issue_no + cd['offer'].term,
+                slug = the_slug,
                 status = 'Active')
 
             subscription.save()
