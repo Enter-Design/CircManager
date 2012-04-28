@@ -4,8 +4,6 @@ from django.views.generic import TemplateView
 
 admin.autodiscover()
 
-
-
 urlpatterns = patterns('',
     # url(r'^myapp/', include('myapp.urls')),
     
