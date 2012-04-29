@@ -3,21 +3,19 @@ from django.forms import ModelForm
 
 from django.contrib.auth.models import User
 
-# Create your models here.
 class Customer(models.Model):
 
     GREETINGS = (
-        ('Mr.', 'Mr.'),
-        ('Mrs.', 'Mrs.'),
-        ('Ms.', 'Ms.'),
-        ('Dr.', 'Dr.'),
+        ('Mr.',   'Mr.'),
+        ('Mrs.',  'Mrs.'),
+        ('Ms.',   'Ms.'),
+        ('Dr.',   'Dr.'),
         ('Prof.', 'Prof.'),
-        ('Sir', 'Sir'),
+        ('Sir',   'Sir'),
     )
     
     user = models.ForeignKey(User, unique=True)
 
-    # Customer personal details
     greeting = models.CharField('Greeting',
                                 max_length=5,
                                 choices=GREETINGS,
@@ -28,11 +26,12 @@ class Customer(models.Model):
     birthday = models.DateField('Birthday', blank=True, null=True)
     
     #TODO: we want only 0-9, '-', ' ', '.', 'x', 'ext', and '()' for phone.
-    # Use a validator!
+
     #from django.core.validators import RegexValidator
     #import re
     #phone_regex = re.compile(r'[^A-Za-z0-9 _.-()]+$') # Needs work
-    #phone = models.CharField(max_length = 20, unique =False, blank=True, validators=[RegexValidator(regex=phone_regex)] )
+    #phone = models.CharField(max_length = 20, unique =False, blank=True,
+    #                         validators=[RegexValidator(regex=phone_regex)] )
 
     phone = models.CharField('Phone number', max_length=50, blank=True)
 
