@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 
 from models import UploadFileForm # import our upload form model
 
-from accounts.models import Customer
+from accounts.models import UserProfile
 import os
 
 
@@ -107,7 +107,7 @@ def handle_uploaded_file(f):
             except ValueError:
                 bd = None
 
-            c = Customer(
+            c = UserProfile(
                 user = user
                 
                 # Personal details
@@ -118,7 +118,9 @@ def handle_uploaded_file(f):
                 , phone=row[6]
 
                 # Billing address:
-                , bill_add_1=row[8], bill_add_2=row[9], bill_city=row[10]
+                , bill_add_1=row[8]
+                , bill_add_2=row[9]
+                , bill_city=row[10]
                 , bill_province=row[11]
                 , bill_postal=row[12]
                 , bill_country=row[13]

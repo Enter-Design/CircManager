@@ -2,8 +2,6 @@ from django.db import models
 
 from circ.models import Subscription, Promo
 
-# Create your models here.
-
 class Payment(models.Model):
 
     PAYMENT_METHODS = (

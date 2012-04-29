@@ -1,9 +1,9 @@
 from django.contrib import admin
 from django.contrib.auth.models import User
 
-from accounts.models import Customer
+from accounts.models import UserProfile
 
-class CustomerAdmin(admin.ModelAdmin):
+class UserProfileAdmin(admin.ModelAdmin):
     pass
 
-admin.site.register(Customer, CustomerAdmin)
+admin.site.register(UserProfile, UserProfileAdmin)

@@ -3,7 +3,7 @@ from django.forms import ModelForm
 
 from django.contrib.auth.models import User
 
-class Customer(models.Model):
+class UserProfile(models.Model):
 
     GREETINGS = (
         ('Mr.',   'Mr.'),
@@ -58,6 +58,6 @@ class Customer(models.Model):
     def __unicode__(self):
         return u'%s' % (self.user) # Note 'u' prefix
 
-class CustomerForm(ModelForm):
+class UserProfileForm(ModelForm):
     class Meta:
-        model = Customer
+        model = UserProfile
