@@ -22,7 +22,7 @@ urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^upload/upload/', 'uploader.views.upload_file', name='upload'),
-    url(r'^upload/success/', 'uploader.views.success', name='success'),
+    url(r'^uploader/', 'uploader.views.upload_file', name='upload'),
+    url(r'^uploader/success/', 'uploader.views.success', name='success'),
 
 )
